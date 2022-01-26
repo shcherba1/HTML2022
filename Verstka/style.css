@@ -52,6 +52,18 @@
     margin-right: 102px;
 }
 
+.img19 {
+    width: 678px;
+}
+
+.img20 {
+    height: 528px;
+    width: 911px;
+    margin: auto;
+    margin-top: 57px;
+    margin-bottom: 127px;
+}
+
 .nav_menu__item a {
     font-size: 16px;
     line-height: 24px;
@@ -59,32 +71,33 @@
     text-decoration: none;
 }
 
-.btn1 {
+.btn1, .btn2, .btn3, .btn4 {
+    font-size: 16px;
+    box-sizing: border-box;
     height: 54px;
+    border-radius: 4px;
+}
+
+.btn1 {
     width: 163px;
     background: #0B2330;
     border: 1px solid #0B2330;
-    box-sizing: border-box;
-    border-radius: 4px;
     color: white;
-    font-size: 20px;
 }
 
-.btn2 {
-    height: 54px;
+.btn2, .btn4 {
     width: 163px;
     background: #f9c602;
     border: 1px solid #F9C600;
-    box-sizing: border-box;
-    border-radius: 4px;
 }
 
 .btn3 {
-    height: 54px;
     width: 156px;
     border: 1px solid #0B2330;
-    box-sizing: border-box;
-    border-radius: 4px;
+}
+
+.btn4 {
+    margin-left: 638px;
 }
 
 #container {
@@ -120,6 +133,13 @@ width: 50%;
     margin-top: 0;
 }
 
+#containerVelo {
+    display: flex;
+    background: #52cebd;
+    margin: 176px 32px 191px 32px;
+    height: 494px;
+  }
+
 .tx1 {
     margin-left: 32px;
     font-size: 12px;
@@ -153,4 +173,29 @@ width: 50%;
     margin: auto;
     margin-top: 189px;
     margin-bottom: 59px;
+}
+
+.tx5 {
+    height: 120px;
+    width: 557px;
+    font-size: 34px;
+    line-height: 40px;
+    margin: 114px 121px 35px 20px;
+}
+
+.tx6 {
+    height: 64px;
+    width: 533px;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 145px 161px 20px;
+}
+
+.txt7 {
+    height: 80px;
+    width: 711px;
+    text-align: center;
+    margin: auto;
+    font-size: 34px;
+    line-height: 40px;
 }
