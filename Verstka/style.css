@@ -10,7 +10,7 @@
     top: 0;
 }
 
-.nav_menu1, .nav_menu2, .top_bar, .main, #container, #container2, #container1R, #container2R, #container3R, #containerBut, #containerVelo {
+.nav_menu1, .nav_menu2, .top_bar, .main, .down, .darts1, .akord-text3, #container, #container2, #container1R, #container2R, #container3R, #containerBut, #containerVelo {
     display: flex;
 }
 
@@ -92,10 +92,24 @@
     height: 397px;
 }
 
-.img25 {
+.img25, .img26, .img27 {
     height: 40px;
     width: 40px;
+}
+.img27, .img25, .img26 {
     margin-bottom: 23px;
+}
+
+.img26, .img27 {
+margin-top: 140px;
+}
+
+.img28 {
+    height: 320px;
+    width: 384px;
+    margin-top: 0.22px;
+    margin-left: 122px;
+    margin-right: 224px;
 }
 
 .nav_menu__item a {
@@ -210,12 +224,40 @@
     width: 513px;
 }
 
-.tx2, .tx4, .tx5, .tx6, .txt7, .txt8, .txt9, .txt11, .txt13 {
+.down {
+    margin-top: 21px;
+}
+
+.darts {
+    height: 960px;
+    background: #F2EDE7;
+}
+
+.darts1 {
+    position: absolute;
+    margin-top: 377px;
+}
+
+.darts2 {
+    width: 588px;
+}
+
+.line {
+    width: 588px;
+    height: 2px;
+    background: #C9316F;
+}
+
+.tx2, .tx4, .tx5, .tx6, .txt7, .txt8, .txt9, .txt11, .txt13, .txt17, .txt19 {
     color: #0B2330;
 }
 
-.tx3, .txt12, .txt14 {
+.tx3, .txt12, .txt14, .txt18 {
     color: #375361;
+}
+
+.txt15, .txt16 {
+    color: #61757E;
 }
 
 .tx1 {
@@ -330,4 +372,91 @@
     line-height: 28px;
     margin-top: 29px;
     margin-bottom: 64px;
+}
+
+.txt15, .txt16, .txt17 {
+    height: 23px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3px;
+    border-radius: 4px;
+}
+
+.txt15 {
+    width: 228px;
+    background: #E7EAEB;
+}
+
+.txt16 {
+    width: 147px;
+    background: #E7EAEB;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.txt17 {
+    width: 152px;
+    background: #FE9F28;
+}
+
+.txt18, .txt19 {
+    margin-left: 122px;
+}
+
+.txt18 {
+    height: 24px;
+    width: 84px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 96px;
+}
+
+.txt19 {
+    height: 128px;
+    width: 1064px;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    position: absolute;
+    margin-top: 130px;
+}
+
+.akord-item {
+    border-bottom: #C3CACD solid 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.akord-title {
+    font-size: 24px;
+    line-height: 32px;
+    width: 245px;
+    height: 32px;
+    color: #0B2330;
+}
+
+.akord-input:checked + .akord-text {
+    display: block;
+}
+
+.akord-text {
+    display: none;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.akord-text1 {
+    margin-bottom: 36px;
+}
+
+.akord-text3 {
+    margin-top: 35px;
+    margin-bottom: 23px;
+    column-gap: 8px;
 }
