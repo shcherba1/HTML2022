@@ -10,7 +10,7 @@
     top: 0;
 }
 
-.nav_menu1, .nav_menu2, .top_bar, .main, .down, .darts1, .akord-text3, .znaky, .main3, .main321, #container, #container2, #container1R, #container2R, #container3R, #containerBut, #containerVelo {
+.nav_menu1, .nav_menu2, .top_bar, .main, .down, .darts1, .akord-text3, .znaky, .main3, .main321, .foot2, .foot3, .foot3b, #container, #container2, #container1R, #container2R, #container3R, #containerBut, #containerVelo {
     display: flex;
 }
 
@@ -605,4 +605,66 @@ margin-top: 140px;
     background: #0B2330;
     text-align: center;
     padding-top: 53px;
+}
+
+.footer {
+    height: 678px;
+    background: #0B2330;
+}
+
+.foot1 {
+    height: 1px;
+    background: #375361;
+    margin: 0 32px 80px 32px;
+}
+
+.foot2 {
+    margin-left: 32px;
+}
+
+.footA {
+    margin-right: 110px;
+}
+
+.footB, .footC, .footD, .footE {
+    width: 236px;
+}
+.sylka1 a {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #F9C600;
+}
+
+.sylka1 {
+    margin-bottom: 14px;
+}
+
+.sylka2 a {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #94A0A4;
+}
+
+.sylka2 {
+    margin-bottom: 13px;
+}
+
+.foot3 {
+    margin-left: 268px;
+    margin-top: 56px;
+}
+
+.foot3a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+}
+
+.foot3b {
+    margin-left: 589px;
+    column-gap: 24px;
 }
